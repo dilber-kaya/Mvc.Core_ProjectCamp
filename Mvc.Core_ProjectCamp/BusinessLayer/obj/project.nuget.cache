@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2gBjOFrORPYUZ//f4Ifc6hMzJ6OPkB4qLQ3en7ARIBk5gAj+aq+h+EbbFSmrG7xmXs+s/kMOb3hETFEbkYVtFw==",
+  "dgSpecHash": "k2DLRNIdIYWF/+sAoNP1Ofxy0nQwiY2NCBoYgoEk2+i/XCIDXcWB6PEPhdOGdhUBmXRx0lVA1hVeMTMK6fmwAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dilber\\Desktop\\Exercises\\C_Sharp\\N-Tier Architecture\\Mvc.Core_ProjectCamp150\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dilber\\.nuget\\packages\\bootstrap\\5.2.3\\bootstrap.5.2.3.nupkg.sha512",
+    "C:\\Users\\Dilber\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\Dilber\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Dilber\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Dilber\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dilber\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Dilber\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
