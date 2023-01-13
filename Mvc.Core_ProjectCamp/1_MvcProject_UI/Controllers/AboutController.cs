@@ -9,7 +9,7 @@ namespace _1_MvcProject_UI.Controllers
 		AboutManagerBL abm = new AboutManagerBL(new EFAboutRepository());
 		public IActionResult Index()
 		{
-			var values = abm.ListAboutBL();
+			var values = abm.ListBL();
 			return View(values);
 		}
 		public PartialViewResult SocialMediaAbout()

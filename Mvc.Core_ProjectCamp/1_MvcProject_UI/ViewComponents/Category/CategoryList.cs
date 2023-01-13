@@ -10,7 +10,7 @@ namespace _1_MvcProject_UI.ViewComponents.Category
 
 		public IViewComponentResult Invoke()
 		{
-			var values = cm.ListCategoryBL();
+			var values = cm.ListBL();
 			return View(values);
 		}
 	}

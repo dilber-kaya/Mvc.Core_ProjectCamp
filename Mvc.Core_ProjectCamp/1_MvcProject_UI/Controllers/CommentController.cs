@@ -1,11 +1,12 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace _1_MvcProject_UI.Controllers
 {
-	public class CommentController : Controller
+    public class CommentController : Controller
 	{
 		CommentManagerBL cm = new CommentManagerBL(new EFCommentRepository());
 		public IActionResult Index()

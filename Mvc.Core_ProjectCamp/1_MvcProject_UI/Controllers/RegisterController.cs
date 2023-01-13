@@ -27,7 +27,7 @@ namespace _1_MvcProject_UI.Controllers
                 p.WriterStatus = true;
                 p.WriterAbout = "Deneme Test";
                 p.WriterImage = "img";
-                wm.AddWriterBL(p);
+                wm.TAddBL(p);
                 return RedirectToAction("Index", "Blog");
             }
             else

@@ -9,7 +9,7 @@ namespace _1_MvcProject_UI.Controllers
         CategoryManagerBL cm = new CategoryManagerBL(new EFCategoryRepository());
         public IActionResult Index()
         {
-            var values = cm.ListCategoryBL();
+            var values = cm.ListBL();
             return View(values);
         }
     }
