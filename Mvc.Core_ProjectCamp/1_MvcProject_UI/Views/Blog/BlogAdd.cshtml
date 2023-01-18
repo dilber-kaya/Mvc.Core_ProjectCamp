@@ -1,6 +1,5 @@
 ﻿@model EntityLayer.Concrete.Blog
 
-
 @{
     ViewData["Title"] = "BlogAdd";
     Layout = "~/Views/Shared/_WriterLayout.cshtml";
@@ -10,35 +9,32 @@
 <br />
 <form asp-action="BlogAdd" , asp-controller="Blog" method="post" autocomplete="off">
 
-    <div class="form-row">
-        <div class="col-md-6 mb-3">
+
+        <div class="col-md-12 mb-3">
             <label for="validationCustom01">Blog Başlığı</label>
             <input type="text" class="form-control" asp-for="BlogTitle" id="validationDefault01" placeholder="" required="">
             <span style="color:red" asp-validation-for="BlogTitle"></span>
         </div>
-        <div class="col-md-6 mb-3">
+        <div class="col-md-12 mb-3">
             <label for="validationCustom02">Blog Görseli</label>
             <input type="text" class="form-control" asp-for="BlogImage" id="validationDefault02" placeholder="" required="">
             <span style="color:red" asp-validation-for="BlogImage"></span>
         </div>
-    </div>
-    <div class="form-row">
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-12">
             <label for="validationCustom03 mb-2">Blog Küçük Görsel</label>
             <input type="text" class="form-control" asp-for="BlogThumbnailImage" id="validationDefault03" placeholder="" required="">
             <span style="color:red" asp-validation-for="BlogThumbnailImage"></span>
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-12">
             <label for="validationCustom04 mb-2">Kategori</label>
             @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.cv, new { @class = "form-control"})
             <br />
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-12">
             <label for="validationCustom05 mb-2">Blog İçeriği</label>
 @*            <input type="text" class="form-control" asp-for="BlogContent" id="validationDefault05" placeholder="" required="">
 *@            <textarea class="form-control" asp-for="BlogContent" id="validationDefault05" rows="7" placeholder="" required=""></textarea>
         </div>
-    </div>
     <button type="submit" class="btn btn-info submit mb-4">Yazıyı Kaydet</button>
 </form>
 

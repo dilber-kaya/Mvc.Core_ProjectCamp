@@ -227,6 +227,58 @@
           }
         }
       },
+      "ClosedXML/0.100.3": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.16.0",
+          "ExcelNumberFormat": "1.1.0",
+          "Microsoft.CSharp": "4.7.0",
+          "SixLabors.Fonts": "1.0.0-beta18",
+          "System.Buffers": "4.5.1",
+          "System.IO.Packaging": "6.0.0",
+          "System.Memory": "4.5.4",
+          "XLParser": "1.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/ClosedXML.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ClosedXML.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml/2.16.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Packaging": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ExcelNumberFormat/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ExcelNumberFormat.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExcelNumberFormat.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/11.2.2": {
         "type": "package",
         "compile": {
@@ -287,6 +339,36 @@
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Irony.NetCore/1.0.11": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime.Numerics": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Irony.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Irony.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2022.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
           }
         }
       },
@@ -1144,7 +1226,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -2269,6 +2351,19 @@
           }
         }
       },
+      "SixLabors.Fonts/1.0.0-beta18": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2283,20 +2378,13 @@
           "lib/netstandard1.6/System.AppContext.dll": {}
         }
       },
-      "System.Buffers/4.3.0": {
+      "System.Buffers/4.5.1": {
         "type": "package",
-        "dependencies": {
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Diagnostics.Tracing": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Threading": "4.3.0"
-        },
         "compile": {
-          "lib/netstandard1.1/_._": {}
+          "ref/netcoreapp2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.1/System.Buffers.dll": {}
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -2777,6 +2865,22 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
+      "System.IO.Packaging/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.IO.Pipelines/5.0.1": {
         "type": "package",
         "compile": {
@@ -3073,7 +3177,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/_._": {
+          "ref/netstandard1.5/System.Reflection.TypeExtensions.dll": {
             "related": ".xml"
           }
         },
@@ -3805,6 +3909,46 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "X.PagedList/8.4.3": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "2022.1.0"
+        },
+        "compile": {
+          "lib/net6.0/X.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/X.PagedList.dll": {}
+        }
+      },
+      "X.PagedList.Mvc.Core/8.4.3": {
+        "type": "package",
+        "dependencies": {
+          "X.PagedList": "8.4.3"
+        },
+        "compile": {
+          "lib/net6.0/X.PagedList.Mvc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/X.PagedList.Mvc.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "XLParser/1.5.2": {
+        "type": "package",
+        "dependencies": {
+          "Irony.NetCore": "1.0.11",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/XLParser.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/XLParser.dll": {}
+        }
+      },
       "BusinessLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3962,6 +4106,60 @@
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
       ]
     },
+    "ClosedXML/0.100.3": {
+      "sha512": "yvEK5ga48mSalPknChOh5hppZixBY5tDkHN7V6WybLjLBBoHvRqm0Vi23XdIaDu9St2rLGJ9/vmgvdCyMPPAsA==",
+      "type": "package",
+      "path": "closedxml/0.100.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "closedxml.0.100.3.nupkg.sha512",
+        "closedxml.nuspec",
+        "lib/netstandard2.0/ClosedXML.dll",
+        "lib/netstandard2.0/ClosedXML.xml",
+        "nuget-logo.png"
+      ]
+    },
+    "DocumentFormat.OpenXml/2.16.0": {
+      "sha512": "RhpnDgyyx1KjZm98T3w3bSXFHG/7ZNUaVmz4NAUA+jmV3PcVNZeW87Y04CpBNLdDHEMSspirfo0B5kLRaoE97w==",
+      "type": "package",
+      "path": "documentformat.openxml/2.16.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentformat.openxml.2.16.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.dll",
+        "lib/net35/DocumentFormat.OpenXml.xml",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/DocumentFormat.OpenXml.xml",
+        "lib/net46/DocumentFormat.OpenXml.dll",
+        "lib/net46/DocumentFormat.OpenXml.xml",
+        "lib/netstandard1.3/DocumentFormat.OpenXml.dll",
+        "lib/netstandard1.3/DocumentFormat.OpenXml.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
+      ]
+    },
+    "ExcelNumberFormat/1.1.0": {
+      "sha512": "R3BVHPs9O+RkExbZYTGT0+9HLbi8ZrNij1Yziyw6znd3J7P3uoIR07uwTLGOogtz1p6+0sna66eBoXu7tBiVQA==",
+      "type": "package",
+      "path": "excelnumberformat/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "excelnumberformat.1.1.0.nupkg.sha512",
+        "excelnumberformat.nuspec",
+        "icon.png",
+        "lib/net20/ExcelNumberFormat.dll",
+        "lib/net20/ExcelNumberFormat.xml",
+        "lib/netstandard1.0/ExcelNumberFormat.dll",
+        "lib/netstandard1.0/ExcelNumberFormat.xml",
+        "lib/netstandard2.0/ExcelNumberFormat.dll",
+        "lib/netstandard2.0/ExcelNumberFormat.xml"
+      ]
+    },
     "FluentValidation/11.2.2": {
       "sha512": "5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
       "type": "package",
@@ -4033,6 +4231,42 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Irony.NetCore/1.0.11": {
+      "sha512": "/2MCkqdhEjPiSTZKYXg6u9AO9o3m68biqcFHAnM28WdnrcZii2vYbmKPzT5ejByyV72FUlygOtHBMt8SLnUyNw==",
+      "type": "package",
+      "path": "irony.netcore/1.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "irony.netcore.1.0.11.nupkg.sha512",
+        "irony.netcore.nuspec",
+        "lib/net452/Irony.dll",
+        "lib/net461/Irony.dll",
+        "lib/netstandard1.6/Irony.dll"
+      ]
+    },
+    "JetBrains.Annotations/2022.1.0": {
+      "sha512": "ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "type": "package",
+      "path": "jetbrains.annotations/2022.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2022.1.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
       ]
     },
     "MessagePack/2.1.152": {
@@ -4849,10 +5083,10 @@
         "microsoft.codeanalysis.workspaces.msbuild.nuspec"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4865,6 +5099,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -4874,7 +5109,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -6680,6 +6915,24 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
+    "SixLabors.Fonts/1.0.0-beta18": {
+      "sha512": "evykNmy/kEE9EAEKgZm3MNUYXuMHFfmcLUNPw7Ho5q7OI96GFkkIxBm+QaKOTPBKw+L0AjKOs+ArVg8P40Ac9g==",
+      "type": "package",
+      "path": "sixlabors.fonts/1.0.0-beta18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/SixLabors.Fonts.dll",
+        "lib/netcoreapp3.1/SixLabors.Fonts.xml",
+        "lib/netstandard2.0/SixLabors.Fonts.dll",
+        "lib/netstandard2.0/SixLabors.Fonts.xml",
+        "lib/netstandard2.1/SixLabors.Fonts.dll",
+        "lib/netstandard2.1/SixLabors.Fonts.xml",
+        "sixlabors.fonts.1.0.0-beta18.nupkg.sha512",
+        "sixlabors.fonts.128.png",
+        "sixlabors.fonts.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -6735,19 +6988,35 @@
         "system.appcontext.nuspec"
       ]
     },
-    "System.Buffers/4.3.0": {
-      "sha512": "ratu44uTIHgeBeI0dE8DWvmXVBSo4u7ozRZZHOMmK/JPpYyo0dAfgSiHlpiObMQ5lEtEyIXA40sKRYg5J6A8uQ==",
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
-      "path": "system.buffers/4.3.0",
+      "path": "system.buffers/4.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/netstandard1.1/.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
         "lib/netstandard1.1/System.Buffers.dll",
-        "system.buffers.4.3.0.nupkg.sha512",
-        "system.buffers.nuspec"
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Collections/4.3.0": {
@@ -7789,6 +8058,29 @@
         "ref/xamarinwatchos10/_._",
         "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
         "system.io.filesystem.primitives.nuspec"
+      ]
+    },
+    "System.IO.Packaging/6.0.0": {
+      "sha512": "C7OkTRIjqIjAKu6ef/fuj8ynCZTPcTYZnvHaq48bniACgXXJogmEoIc56YCDNTc14xhsbLmgpS3KP+evbsUa2g==",
+      "type": "package",
+      "path": "system.io.packaging/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.IO.Packaging.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.IO.Packaging.dll",
+        "lib/net461/System.IO.Packaging.xml",
+        "lib/net6.0/System.IO.Packaging.dll",
+        "lib/net6.0/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.6.0.0.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.IO.Pipelines/5.0.1": {
@@ -10494,6 +10786,47 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "X.PagedList/8.4.3": {
+      "sha512": "wVVbgv++0NmOaUFgNOAky+wt4MdAAwn2Roz/+u+jlEX1s/ELIbbnan70Skhk/um6w5NnM5eC4Kux1GAPjzHOeQ==",
+      "type": "package",
+      "path": "x.pagedlist/8.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/X.PagedList.dll",
+        "lib/netstandard2.0/X.PagedList.dll",
+        "lib/netstandard2.1/X.PagedList.dll",
+        "x.pagedlist.8.4.3.nupkg.sha512",
+        "x.pagedlist.nuspec"
+      ]
+    },
+    "X.PagedList.Mvc.Core/8.4.3": {
+      "sha512": "f1M+6o0AGSUGBuIRiXl9PGfoFbymw8uKjcuA1pJb2XkfginndZg1UR9zgppXW0GMLWCMzCoD5uVGD3SSywSimQ==",
+      "type": "package",
+      "path": "x.pagedlist.mvc.core/8.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/X.PagedList.Mvc.Core.dll",
+        "lib/netcoreapp3.1/X.PagedList.Mvc.Core.dll",
+        "x.pagedlist.mvc.core.8.4.3.nupkg.sha512",
+        "x.pagedlist.mvc.core.nuspec"
+      ]
+    },
+    "XLParser/1.5.2": {
+      "sha512": "8tnUCmMbn6c/HGuHFyq1sulHym8YReTKDNXFFQk0U8nldNx6RGrwRvLh0+aQjEc7YoC3Q1ztH1npLt7dClKqjw==",
+      "type": "package",
+      "path": "xlparser/1.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/XLParser.dll",
+        "lib/net461/XLParser.dll",
+        "lib/netstandard1.6/XLParser.dll",
+        "xlparser.1.5.2.nupkg.sha512",
+        "xlparser.nuspec"
+      ]
+    },
     "BusinessLayer/1.0.0": {
       "type": "project",
       "path": "../BusinessLayer/BusinessLayer.csproj",
@@ -10513,6 +10846,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BusinessLayer >= 1.0.0",
+      "ClosedXML >= 0.100.3",
       "DataAccessLayer >= 1.0.0",
       "EntityLayer >= 1.0.0",
       "FluentValidation >= 11.2.2",
@@ -10522,6 +10856,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.12",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.11",
+      "X.PagedList >= 8.4.3",
+      "X.PagedList.Mvc.Core >= 8.4.3",
       "bootstrap >= 5.2.3"
     ]
   },
@@ -10580,6 +10916,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "ClosedXML": {
+            "target": "Package",
+            "version": "[0.100.3, )"
+          },
           "FluentValidation": {
             "target": "Package",
             "version": "[11.2.2, )"
@@ -10611,6 +10951,14 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.11, )"
+          },
+          "X.PagedList": {
+            "target": "Package",
+            "version": "[8.4.3, )"
+          },
+          "X.PagedList.Mvc.Core": {
+            "target": "Package",
+            "version": "[8.4.3, )"
           },
           "bootstrap": {
             "target": "Package",

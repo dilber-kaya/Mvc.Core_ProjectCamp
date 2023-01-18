@@ -278,3 +278,13 @@ C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCa
 C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\obj\Debug\net6.0\1_MvcProject_UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\Irony.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI\bin\Debug\net6.0\XLParser.dll

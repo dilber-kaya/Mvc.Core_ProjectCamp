@@ -10,7 +10,6 @@ namespace _1_MvcProject_UI.Controllers
     {
         BlogManagerBL bm = new BlogManagerBL(new EFBlogRepository());
 
-        [AllowAnonymous]
         public IActionResult Index()
         {
             Context c= new Context();

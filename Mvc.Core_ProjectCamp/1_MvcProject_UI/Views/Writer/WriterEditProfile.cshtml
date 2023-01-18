@@ -23,7 +23,11 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword4">Şifre</label>
-                        @Html.PasswordFor(x=>x.WriterPassword, new { @class = "form-control"})
+                        @Html.PasswordFor(x=>x.WriterPassword, new{@id="password1", @class="form-control"})
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword4">Şifre Onayla</label>
+                        @Html.PasswordFor(x=>x.WriterPassword, new{@id="password2", @class="form-control"})
                     </div>
                     <div class="form-group">
                         <label>Yazar Görsel</label>

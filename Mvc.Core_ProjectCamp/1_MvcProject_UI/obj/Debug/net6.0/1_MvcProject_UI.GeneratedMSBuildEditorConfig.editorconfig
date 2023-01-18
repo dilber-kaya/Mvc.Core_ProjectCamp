@@ -16,12 +16,48 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dilber\Desktop\Exercises\C_Sharp\N-Tier Architecture\Mvc.Core_ProjectCamp150\1_MvcProject_UI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Areas/Admin/Views/Blog/BlogListExcel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xCbG9nTGlzdEV4Y2VsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Areas/Admin/Views/Blog/BlogTitleListExcel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xCbG9nVGl0bGVMaXN0RXhjZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Areas/Admin/Views/Category/CategoryAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Areas/Admin/Views/Shared/Components/Statistic1/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3RhdGlzdGljMVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Areas/Admin/Views/Shared/Components/Statistic2/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3RhdGlzdGljMlxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Areas/Admin/Views/Widget/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV2lkZ2V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/About/SocialMediaAbout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcU29jaWFsTWVkaWFBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Admin/AdminNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Blog/BlogAdd.cshtml]
@@ -80,8 +116,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Message/InBox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbkJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Message/MessageDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxNZXNzYWdlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/NewsLetter/SubscribeMail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0xldHRlclxTdWJzY3JpYmVNYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Notification/AllNotifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uXEFsbE5vdGlmaWNhdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Register/Index.cshtml]
@@ -144,6 +192,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWwzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Shared/_UserLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -162,6 +214,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Writer/Test.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3JpdGVyXFRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Writer/WriterAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3JpdGVyXFdyaXRlckFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dilber/Desktop/Exercises/C_Sharp/N-Tier Architecture/Mvc.Core_ProjectCamp150/1_MvcProject_UI/Views/Writer/WriterEditProfile.cshtml]
