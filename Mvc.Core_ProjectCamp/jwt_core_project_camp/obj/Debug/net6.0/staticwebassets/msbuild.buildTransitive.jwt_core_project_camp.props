@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\jwt_core_project_camp.props" />
+</Project>

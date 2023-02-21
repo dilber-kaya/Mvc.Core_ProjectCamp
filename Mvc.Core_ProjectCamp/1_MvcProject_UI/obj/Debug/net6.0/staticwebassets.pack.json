@@ -181,6 +181,30 @@
       "PackagePath": "staticwebassets\\1_MvcProject_UI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Dilber\\Desktop\\Exercises\\C_Sharp\\N-Tier Architecture\\Mvc.Core_ProjectCamp150\\1_MvcProject_UI\\wwwroot\\403forbidden\\README.markdown",
+      "PackagePath": "staticwebassets\\403forbidden\\README.markdown"
+    },
+    {
+      "Id": "C:\\Users\\Dilber\\Desktop\\Exercises\\C_Sharp\\N-Tier Architecture\\Mvc.Core_ProjectCamp150\\1_MvcProject_UI\\wwwroot\\403forbidden\\dist\\index.html",
+      "PackagePath": "staticwebassets\\403forbidden\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Dilber\\Desktop\\Exercises\\C_Sharp\\N-Tier Architecture\\Mvc.Core_ProjectCamp150\\1_MvcProject_UI\\wwwroot\\403forbidden\\dist\\style.css",
+      "PackagePath": "staticwebassets\\403forbidden\\dist\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Dilber\\Desktop\\Exercises\\C_Sharp\\N-Tier Architecture\\Mvc.Core_ProjectCamp150\\1_MvcProject_UI\\wwwroot\\403forbidden\\license.txt",
+      "PackagePath": "staticwebassets\\403forbidden\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dilber\\Desktop\\Exercises\\C_Sharp\\N-Tier Architecture\\Mvc.Core_ProjectCamp150\\1_MvcProject_UI\\wwwroot\\403forbidden\\src\\index.html",
+      "PackagePath": "staticwebassets\\403forbidden\\src\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Dilber\\Desktop\\Exercises\\C_Sharp\\N-Tier Architecture\\Mvc.Core_ProjectCamp150\\1_MvcProject_UI\\wwwroot\\403forbidden\\src\\style.css",
+      "PackagePath": "staticwebassets\\403forbidden\\src\\style.css"
+    },
+    {
       "Id": "C:\\Users\\Dilber\\Desktop\\Exercises\\C_Sharp\\N-Tier Architecture\\Mvc.Core_ProjectCamp150\\1_MvcProject_UI\\wwwroot\\CoreBlogTema.zip",
       "PackagePath": "staticwebassets\\CoreBlogTema.zip"
     },

@@ -14,13 +14,16 @@ namespace _1_MvcProject_UI.Controllers
     {
         BlogManagerBL bm = new BlogManagerBL(new EFBlogRepository());
         CategoryManagerBL cm = new CategoryManagerBL(new EFCategoryRepository());
-        
         Context c = new Context();
+
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var values = bm.GetBlogListWithCategoryBL();
             return View(values);
         }
+
+        [AllowAnonymous]
         public IActionResult BlogReadAll(int id)
         {
             ViewBag.Id = id;
@@ -30,7 +33,8 @@ namespace _1_MvcProject_UI.Controllers
 
         public IActionResult BlogListByWriter()
         {
-            var usermail = User.Identity.Name;
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
             var values = bm.GetListWithCategoryByWriterBL(writerID);
             return View(values);
@@ -60,7 +64,8 @@ namespace _1_MvcProject_UI.Controllers
                                                    }).ToList();
             ViewBag.cv = categoryvalues;
 
-            var usermail = User.Identity.Name;
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
 
             BlogValidator bv = new BlogValidator();
@@ -107,7 +112,8 @@ namespace _1_MvcProject_UI.Controllers
         [HttpPost]
         public IActionResult BlogEdit(Blog p)
         {
-            var usermail = User.Identity.Name;
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
 
             p.WriterID = writerID;

@@ -1,10 +1,12 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace _1_MvcProject_UI.Controllers
 {
+	[AllowAnonymous]
 	public class ContactController : Controller
 	{
 		ContactManagerBL cm = new ContactManagerBL(new EFContactRepository());

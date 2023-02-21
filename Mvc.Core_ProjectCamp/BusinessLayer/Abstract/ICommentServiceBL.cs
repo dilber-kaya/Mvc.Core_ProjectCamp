@@ -13,6 +13,8 @@ namespace BusinessLayer.Abstract
 		//void DeleteCommentBL(Comment comment);
 		//void UpdateCommentBL(Comment comment);
 		List<Comment> ListCommentBL(int id);
-		//Comment GetByIdCommentBL(int id);
-	}
+        //Comment GetByIdCommentBL(int id);
+        List<Comment> GetCommentListWithBlogBL();
+
+    }
 }

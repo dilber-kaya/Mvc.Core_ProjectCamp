@@ -57,6 +57,14 @@
               "target": "Package",
               "version": "[11.2.2, )"
             },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.12, )"
@@ -150,6 +158,14 @@
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.2.2, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

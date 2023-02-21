@@ -1,8 +1,18 @@
+using DataAccessLayer.Concrete;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<Context>();
+builder.Services.AddIdentity<AppUser, AppRole>(x =>
+{
+    x.Password.RequireUppercase = false;
+    x.Password.RequireNonAlphanumeric = false;
+})
+    .AddEntityFrameworkStores<Context>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -25,6 +35,16 @@ builder.Services.AddAuthentication(
         x.LoginPath= "/Login/Index";
     }
     );
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(100);
+    options.AccessDeniedPath = new PathString("/Login/AccessDenied/");
+    options.LoginPath = "/Login/Index/";
+    options.SlidingExpiration = true;
+});
+
 
 var app = builder.Build();
 
@@ -53,12 +73,12 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
       name: "areas",
-      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+      pattern: "{area:exists}/{controller=Widget}/{action=Index}/{id?}"
     );
 });
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Blog}/{action=Index}/{id?}");
 
 app.Run();
